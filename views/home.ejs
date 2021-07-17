@@ -1,0 +1,19 @@
+<%- include('partials/header.ejs')%>
+
+<h1>Home</h1>
+
+<p><%=homeContent%></p>
+
+
+<% homeItems.forEach(function(item){%>
+<h1><%= item.title.substr(0,101)%> </h1>
+<% var s=item.text.substring(0,101); %>
+<% if(item.text.length>100){%>
+<% s+=' ...';%>
+  <%}%>
+  <p><%=s%>
+    <% var url="/posts/"+item._id %>
+  <a href=<%=url%>>Read more</a></p>
+
+  <%});%>
+<%-include('partials/footer.ejs')%>
