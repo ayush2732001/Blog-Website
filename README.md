@@ -47,4 +47,7 @@ This page will contain the contact information. Similar to the About us page, we
 ![Screenshot (64)](https://user-images.githubusercontent.com/85905191/126069744-b7028105-654b-4594-958f-9c2ad847d613.png)
 
 
+Master branch contains the project.
+
+
 
